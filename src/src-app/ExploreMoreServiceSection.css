@@ -1,0 +1,53 @@
+#ExploreSectionImg{
+    max-width: 200px;
+}
+
+.end-3 {
+    right: 120px !important;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Poppins", "Rubik", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.2;
+    color: #14183E;
+}
+
+.shadow-hover:hover {
+    -webkit-box-shadow: 0 6.25rem 5rem 0 rgb(0 0 0 / 2%), 0 4.05063rem 2.92813rem 0 rgb(0 0 0 / 2%), 0 2.4075rem 1.5925rem 0 rgb(0 0 0 / 1%), 0 1.25rem 0.8125rem 0 rgb(0 0 0 / 1%), 0 0.50938rem 0.4075rem 0 rgb(0 0 0 / 1%), 0 0.11563rem 0.19687rem 0 rgb(0 0 0 / 0%);
+    box-shadow: 0 6.25rem 5rem 0 rgb(0 0 0 / 2%), 0 4.05063rem 2.92813rem 0 rgb(0 0 0 / 2%), 0 2.4075rem 1.5925rem 0 rgb(0 0 0 / 1%), 0 1.25rem 0.8125rem 0 rgb(0 0 0 / 1%), 0 0.50938rem 0.4075rem 0 rgb(0 0 0 / 1%), 0 0.11563rem 0.19687rem 0 rgb(0 0 0 / 0%);
+}
+
+.card.service-card {
+    border: 0;
+}
+
+.card.service-card:hover {
+    border: 1px;
+}
+
+.rounded-3 {
+    border-radius: 2.25rem !important;
+}
+
+.card.service-card:hover:before {
+    left: -1.875rem;
+    bottom: -2.1875rem;
+}
+
+.card.service-card:before {
+    content: '';
+    position: absolute;
+    left: 0.625rem;
+    bottom: 0.625rem;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #DF6951;
+    border-radius: 1.875rem 0 0.625rem 0;
+    z-index: -1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}

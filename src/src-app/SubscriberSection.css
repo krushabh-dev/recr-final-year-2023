@@ -1,0 +1,87 @@
+#subHeadSection{
+    background-color: rgba(223, 215, 249, 0.199);
+    border-radius: 129px 20px 20px 20px;
+}
+
+#SubscibendBtn{
+    max-width: 70px
+}
+
+#subtBtnTwo{
+    max-width: 340px
+}
+
+@media (min-width: 768px){
+.ms-md-n3 {
+    margin-left: -1rem !important;
+}
+}
+
+.notifiSendtopBtn {
+    margin-left: -0.8rem !important;
+    margin-top: 0.8rem !important;
+}
+
+.translate-middle {
+    -webkit-transform: translateX(-50%) translateY(-50%) !important;
+    -ms-transform: translateX(-50%) translateY(-50%) !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+}
+
+.px-5 {
+    padding-right: 2.5rem !important;
+    padding-left: 2.5rem !important;
+}
+
+.py-8 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.top-0 {
+    top: 0 !important;
+}
+
+.end-0 {
+    right: 0px !important;
+}
+
+.notiheading{
+    font-weight: 600;
+    font-size: 1.60181rem;
+    margin-bottom: 3rem !important;
+    line-height: 1.7 !important;
+    color: #5E6282 !important;
+}
+
+.input-group-icon {
+    position: relative;
+}
+
+.form-little-squirrel-control {
+    border-radius: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #39425D;
+    padding: 1.7rem 1rem 1.7rem 2.7rem;
+    border: none;
+    font-size: 14px;
+}
+
+.input-group-icon .input-box-icon {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    color: #212529;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.orange-gradient-btn{
+    background-image: linear-gradient(to bottom, #FF946D, #FF7D68);
+    border: none;
+    border-radius: 0.625rem;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+}

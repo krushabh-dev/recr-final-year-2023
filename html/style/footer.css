@@ -1,0 +1,21 @@
+.text-footer {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.text-footer h1 {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.text-footer h6 {
+    font-size: 0.6rem;
+    color: #ffffff94;
+    padding: 0.6rem;
+}
+
+footer {
+    background: #03105c;
+    margin-top: 2rem;
+}

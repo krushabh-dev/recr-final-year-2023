@@ -1,0 +1,129 @@
+section#ProcessSection {
+    margin-top: 6rem;
+}
+
+#stepImgbg{
+    border-radius: 13px
+}
+
+#startImgonesection{
+    max-width: 370px
+}
+
+#startImgone{
+    right: -160px; top: -210px
+}
+
+#startImgshape{
+    max-width: 550px
+}
+
+#PsectionCard{
+    width: 260px; border-radius: 18px
+}
+
+#rowdivimgcard{
+    margin-right: 10px
+}
+
+#PsectionCard .progress{
+    height: 6px
+}
+#PsectionCard .progress-bar{
+    width: 40%
+}
+
+section#ProcessSection h5.text-secondary {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.rounded-2 {
+    border-radius: 1.5rem !important;
+}
+
+@media (min-width: 1200px){
+#PsectionCard {
+    transform: translate(-50px, -50px);
+}
+}
+
+p.text-small {
+    font-size: xx-small;
+}
+
+.card.applybtn {
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.card.applybtn p{
+padding:0;
+margin:0;
+}
+
+.icon-item {
+border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #080809;
+    background-color: #EEEEEE;
+    transition: all 0.2s ease-in-out;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.8rem;
+    border: 0;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 512px){
+    #PsectionCard {
+    transform: translate(-100%, 3rem);
+}
+
+#startImgshape {
+    max-width: 100%;
+}
+
+#startImgone {
+    right: 0px;
+}
+}
+@media (min-width: 1025px){
+    #PsectionCard {
+    transform: translate(0);
+}
+
+#startImgone {
+    right: -160px;
+}
+
+#startImgshape {
+    max-width: 550px;
+}
+
+}
+@media (max-width: 511.98px){
+    #startImgone{
+        right: 0;
+    }
+#startImgshape{
+    max-width: 100%;
+}
+
+#PsectionCard {
+    display: none;
+}
+}
+
+.card span.btn.icon-item {
+    height: inherit !important;
+}
+
+@media (min-width: 768px){
+#startImgonesection {
+    max-width: 450px;
+}
+}
+

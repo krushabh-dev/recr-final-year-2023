@@ -1,0 +1,37 @@
+#email-verify{
+    padding-top: 10rem;
+    background:url(../img/evbg.svg);
+    height: 100vh;
+    max-width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.verify-mail-card {
+    text-align-last: center;
+        text-align: center;
+}
+
+.col-md-12.verify-mail-card h4 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.verify-mail-card button.ima-bagcampus-btn.btn-primary {
+    padding: 12px 120px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    border: 0;
+}
+
+@media (max-width: 575.99px){
+    .col-md-12.verify-mail-card h4 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .verify-mail-card button.ima-bagcampus-btn.btn-primary {
+        padding: 12px 84px;
+    }
+}

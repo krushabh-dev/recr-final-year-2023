@@ -1,0 +1,105 @@
+.resumeeditoptions p.fs--1.mb-3.fw-medium {
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+.resumeeditoptions a:hover {
+    text-decoration: none;
+}
+
+/* ------------other------------ */
+/* #navigationSvg{
+margin-right: 14px
+} */
+
+.translate-middle-x {
+    -webkit-transform: translateX(-50%) !important;
+    -ms-transform: translateX(-50%) !important;
+    transform: translateX(-50%) !important;
+}
+
+.start-100 {
+    left: 100% !important;
+}
+
+.text-secondary {
+    color: #5E6282 !important;
+}
+
+.font-cursive {
+    font-family: "Volkhov", "DM Serif Display", cursive;
+}
+
+.card {
+    border: none;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 6.25rem 5rem 0 rgb(0 0 0 / 2%), 0 4.05063rem 2.92813rem 0 rgb(0 0 0 / 2%), 0 2.4075rem 1.5925rem 0 rgb(0 0 0 / 1%), 0 1.25rem 0.8125rem 0 rgb(0 0 0 / 1%), 0 0.50938rem 0.4075rem 0 rgb(0 0 0 / 1%), 0 0.11563rem 0.19687rem 0 rgb(0 0 0 / 0%) !important;
+    box-shadow: 0 6.25rem 5rem 0 rgb(0 0 0 / 2%), 0 4.05063rem 2.92813rem 0 rgb(0 0 0 / 2%), 0 2.4075rem 1.5925rem 0 rgb(0 0 0 / 1%), 0 1.25rem 0.8125rem 0 rgb(0 0 0 / 1%), 0 0.50938rem 0.4075rem 0 rgb(0 0 0 / 1%), 0 0.11563rem 0.19687rem 0 rgb(0 0 0 / 0%) !important;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(1.5rem - 1px);
+    border-top-right-radius: calc(1.5rem - 1px);
+}
+
+.link-900 {
+    color: #5E6282 !important;
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+
+@media (min-width: 992px){
+.fs-lg-8 {
+    font-size: 2.56578rem !important;
+}
+}
+
+@media (min-width: 1200px){
+.fs-xl-10 {
+    font-size: 3.24732rem !important;
+}
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #FFFEFE;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1.5rem;
+}
+
+@media (min-width: 1200px){
+#destination h4, #destination .h4 {
+    font-size: 1.26563rem;
+}
+}
+
+#destination h5.text-secondary {
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 1.125rem;
+}
+
+@media (max-width: 511.98px){
+.start-100 {
+    left: 15% !important;
+}
+}

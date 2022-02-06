@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<style>
+
+</style>
+</head>
+<body>
+<body>
+    <!-- https://technext.github.io/studylab/index.html#signin -->
+    <div class="container" id="register-form">
+    <div class="row justify-content-center" style="
+    justify-content: center;
+">
+<div class="col-md-5">
+<div class="login-wrap p-4 p-md-5">
+              <h3 class="mb-4">Register Now</h3>
+              <form action="#" class="signup-form" id="myForm">
+                <div class="form-group">
+                  <label class="label" for="name">
+                    User Name
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="User Name"
+                    id="uname-input"
+                    name="uname"
+                    onChange={this.myuname}
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label" for="email">
+                    Email Address
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="example@domain.extension"
+                    id="email-input"
+                    name="email"
+                    onChange={this.myemail}
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label" for="password">
+                    Password
+                  </label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                    id="Password-input"
+                    name="Password"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label" for="password">
+                    Confirm Password
+                  </label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Confirm Password"
+                    id="ConfirmPassword-input"
+                    name="ConfirmPassword"
+                  />
+                </div>
+                <div class="form-group">
+                  <button
+                    type="submit"
+                    class="btn btn-primary submit form-control btn-primary"
+                    onsubmit="abc()"
+                  >
+                    <span class="fa fa-paper-plane"></span>
+                    Submit
+                  </button>
+                </div>
+                <div class="form-group">
+                  <label htmlFor="">
+                    By Regsitering You Agree Privacy Policies
+                  </label>
+                  <input type="checkbox" name="" id="" checked disabled />
+                </div>
+              </form>
+
+         <p class="text-center">Already have an account? <a href="#signin">Sign In</a></p>
+     </div></div></div></div>
+
+
+     <script>
+
+var form = document.getElementById("myForm");
+form.addEventListener('submit', abc);
+
+function abc(event) {
+  event.preventDefault();
+    const email = document.querySelector("#email-input").value;
+    const password = document.querySelector("#Password-input").value;
+    const unmae = document.querySelector("#uname-input").value;
+    const ConfirmPassword = document.querySelector("#ConfirmPassword-input").value;
+
+    if(password === ConfirmPassword){
+      alert("fine");
+    }else{
+        document.getElementById("ConfirmPassword-input").style.borderColor = "#f3061d";
+        var error = "Please Confirm Password";
+        alert(error)
+    }
+}
+
+     </script>
+
+</body>
+</html>

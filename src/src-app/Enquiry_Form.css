@@ -1,0 +1,111 @@
+ .hero-form-content {
+            margin-top: 2rem;
+            background: rgba(255, 255, 255, 0.95);
+            -webkit-box-shadow: 0 8px 17px rgb(0 0 0 / 2%);
+            box-shadow: 13px 20px 17px 20px rgb(0 0 0 / 2%);
+            padding: 40px 30px;
+            text-align: center;
+            border-top: 4px solid #e7015e;
+        }
+    
+        .hero-form-content h2 {
+            font-size: 36px;
+            font-weight: 800;
+            position: relative;
+            margin-bottom: 20px;
+            padding-bottom: 30px;
+        }
+    
+        .hero-form-content h2:before {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            display: block;
+            text-align: center;
+            /* background: url(../images/shap/title-red.png) no-repeat center center; */
+            max-width: 70px;
+            height: 10px;
+            content: '';
+        }
+    
+        .hero-form-content p {
+            margin-bottom: 35px;
+        }
+    
+        .hero-form .form-control {
+            border: none;
+            border-bottom: 1px solid #e1e1e1;
+            border-radius: 0;
+            margin-bottom: 25px;
+            font-size: 14px;
+            padding-left: 5px;
+        }
+    
+        .hero-form .form-control:focus {
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            outline: none;
+        }
+    
+        .hero-form .btn {
+            display: block;
+            width: 100%;
+        }
+    
+        .hero-form select {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #e1e1e1;
+            font-size: 14px;
+            padding: 6px 0px;
+            color: #888888;
+            line-height: 27px;
+            margin-bottom: 40px;
+        }
+    
+        .hero-form select option {
+            border: none;
+            line-height: 28px;
+            padding: 10px 0;
+        }
+
+        .hero-form .btn {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ff007a;
+    height: 50px;
+    padding: 0 35px;
+    line-height: 50px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div#looking_for_input {
+    text-align: left;
+}
+
+div#looking_for_input input {
+    margin-right: 10px;
+}
+
+div#looking_for_input label {
+    margin-right: 20px;
+}
+
+.form-submit-zoho{
+    padding-top: 5px;
+    font-size: 10px;
+}

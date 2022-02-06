@@ -1,0 +1,9 @@
+#firstid, #thirdid, #secondid , #fourthid{
+    display: none;
+}
+/* #firstid, #secondid, #thirdid,  #fourthid{
+    display: none;
+} */
+#co_thirdid, #co_firstid, #co_secondid, #co_fourthid{
+    display: none;
+}

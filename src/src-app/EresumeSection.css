@@ -1,0 +1,118 @@
+section#eresumeformarea {
+    padding-top: 9rem;
+}
+
+section#eresumeformarea nav, section#eresumeSection nav {
+    padding-top: 2rem !important;
+    padding-bottom: 1rem !important;
+    background-image: none;
+    background-color: rgba(249, 250, 253, 1) !important;
+}
+
+.form-group label {
+    font-size: 0.65rem;
+    transform: translate(-15%, -5%);
+}
+
+input[type=date].form-control {
+    margin-bottom: 0;
+}
+
+#eresumeSection #navMainStyle{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+#eresumeSection{
+    padding-top: 8rem;
+}
+
+#eresumeSection .form-little-squirrel-control {
+    border: 1px solid #f9f7fe;
+}
+
+.zf-overflow {
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+        list-style: none;
+}
+
+.zf-templateWidth {
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0 8px 17px rgb(0 0 0 / 2%);
+    box-shadow: 13px 20px 17px 20px rgb(0 0 0 / 2%);
+    padding: 40px 30px;
+    text-align: center;
+    border-top: 4px solid #e7015e;
+}
+
+.form-area input, .form-area select, .form-area textarea{
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    border-radius: 0;
+    margin-bottom: 25px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+li.zf-checkbox.zf-tempFrmWrapper.zf-oneColumns {
+    text-align: left;
+}
+
+li.zf-fmFooter button {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ff007a;
+    height: 50px;
+    padding: 0 35px;
+    line-height: 50px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px;
+    width: 14rem;
+}
+
+.form-heading h2 {
+    font-size: 36px;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.form-heading p {
+    margin-bottom: 35px;
+}
+
+@media (max-width: 775.99px){
+.zf-templateWidth {
+    margin-top: -35px !important;
+}
+}
+
+/* <!------------MainPage------------/> */
+
+.resumeeditoptions .zf-templateWidth {text-align: initial;padding-left: 30px; box-shadow: 13px 13px 18px 4px rgb(0 0 0 / 2%);}
+
+.resumeeditoptions .form-heading h2{
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
